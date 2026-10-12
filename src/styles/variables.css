@@ -1,0 +1,89 @@
+/* ===================================================================
+   DESIGN TOKENS
+   Colours, fonts, sizes. Brand colour badalna ho to sirf yahin badlo.
+   =================================================================== */
+
+:root {
+  /* Fonts */
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Figtree", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  /* Type scale */
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.375rem;
+  --fs-xl: clamp(1.75rem, 3.2vw, 2.4rem);
+  --fs-hero: clamp(2.5rem, 6.2vw, 4.6rem);
+
+  /* Shape */
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  /* Layout */
+  --container: 1160px;
+  --nav-h: 68px;
+}
+
+/* ---------- LIGHT THEME (default) ---------- */
+:root {
+  color-scheme: light;
+  --bg: #f5f7fc;
+  --surface: #ffffff;
+  --surface-2: #eaeefa;
+  --ink: #12163a;
+  --ink-muted: #545a7d;
+  --line: #dde1f1;
+  --line-strong: #b7bedb;
+  --outline: #12163a;
+
+  --primary: #3b3fd8;
+  --primary-hover: #2c30b5;
+  --primary-ink: #ffffff;
+
+  --warm: #ffb800;
+  --focus: #3b3fd8;
+  --overlay: rgba(12, 14, 40, 0.55);
+
+  --track-web: #3b3fd8;
+  --track-ai: #07795b;
+  --track-placement: #9a5b00;
+}
+
+/* ---------- DARK THEME ---------- */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0d1024;
+  --surface: #161a38;
+  --surface-2: #1d2245;
+  --ink: #eef0ff;
+  --ink-muted: #a4aad3;
+  --line: #2b3162;
+  --line-strong: #454d8c;
+  --outline: #5f6ad0;
+
+  --primary: #8d91ff;
+  --primary-hover: #a6a9ff;
+  --primary-ink: #0d1024;
+
+  --warm: #ffc53d;
+  --focus: #b3b6ff;
+  --overlay: rgba(4, 5, 18, 0.7);
+
+  --track-web: #9ca0ff;
+  --track-ai: #3ddbb0;
+  --track-placement: #ffc53d;
+}
+
+/* Each track gets its own accent colour (used by course cards and the path card) */
+[data-track="web"] {
+  --track-color: var(--track-web);
+}
+[data-track="ai"] {
+  --track-color: var(--track-ai);
+}
+[data-track="placement"] {
+  --track-color: var(--track-placement);
+}
