@@ -12,24 +12,17 @@
 
 export const notes = [
   {
-    id: "python-basics",
-    title: "Python Basics Notes",
-    description: "Syntax, data types, loops and functions in one place.",
-    category: "Python",
-    file: "python-basics.pdf",
+    "id": "Python-interview",
+    "title": "Python Interview Handbook",
+    "description": "Prepare for Python interviews with essential concepts, commonly asked interview questions, coding examples, and practical explanations to strengthen your Python knowledge and interview confidence.",
+    "category": "Python",
+    "file": "Python_Interview_Handbook_Q1-59.pdf"
   },
   {
-    id: "html-css-cheatsheet",
-    title: "HTML & CSS Cheat Sheet",
-    description: "Common tags, selectors and Flexbox or Grid patterns for quick revision.",
-    category: "Web Development",
-    file: "html-css-cheatsheet.pdf",
-  },
-  {
-    id: "aptitude-formulas",
-    title: "Aptitude Formula Sheet",
-    description: "Important formulas and shortcuts for placement tests.",
-    category: "Placement",
-    file: "aptitude-formulas.pdf",
-  },
+    "id": "AI-ML-basics",
+    "title": "AI & ML Fundamentals Handbook",
+    "description": "Learn the fundamentals of Artificial Intelligence and Machine Learning, including core concepts, types of machine learning, algorithms, real-world applications, and essential interview questions with practical examples.",
+    "category": "AI/ML",
+    "file": "AI_ML_Notes_Tanmay_Dwivedi.pdf"
+  }
 ];
