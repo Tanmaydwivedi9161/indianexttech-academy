@@ -34,7 +34,7 @@ export const site = {
   // -------------------------------------------------------------------
   forms: {
     // "Enroll now" form
-        enroll: {
+    enroll: {
       actionUrl:
         "https://docs.google.com/forms/d/e/1FAIpQLScc8o0_fuyZ8txdNXh6d6uQetsixrDzFGWfr54pORADDihMlw/formResponse",
       fields: {
@@ -47,13 +47,14 @@ export const site = {
 
     // "Apply now" form for internships
     apply: {
-      actionUrl: "",
+      actionUrl:
+        "https://docs.google.com/forms/d/e/1FAIpQLSdp1pBUSd3bFxsrW5ipM6xzLarUO1lBmCwyNQydkvNO0HW13Q/formResponse",
       fields: {
-        name: "",
-        whatsapp: "",
-        email: "",
-        role: "",
-        resume: "",
+        name: "entry.1197154004",
+        whatsapp: "entry.219437635",
+        email: "entry.2013404217",
+        role: "entry.135069422",
+        resume: "entry.841071835",
       },
     },
   },
