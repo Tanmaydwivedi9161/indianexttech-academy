@@ -34,15 +34,17 @@ export const site = {
   // -------------------------------------------------------------------
   forms: {
     // "Enroll now" form
-    enroll: {
-      actionUrl: "", // e.g. https://docs.google.com/forms/d/e/XXXX/formResponse
+        enroll: {
+      actionUrl:
+        "https://docs.google.com/forms/d/e/1FAIpQLScc8o0_fuyZ8txdNXh6d6uQetsixrDzFGWfr54pORADDihMlw/formResponse",
       fields: {
-        name: "", // e.g. entry.1234567890
-        whatsapp: "",
-        email: "",
-        course: "",
+        name: "entry.673733712",
+        whatsapp: "entry.929956249",
+        email: "entry.777100734",
+        course: "entry.537627584",
       },
     },
+
     // "Apply now" form for internships
     apply: {
       actionUrl: "",
